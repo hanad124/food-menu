@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+font-family: 'Assistant', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.home {
+    margin-top: 3rem;
+
+    &-title {
+     color: #333333;
+     font-size: 1.7rem;
+     font-weight: 600;
+     text-align: center;
+ 
+     span {
+         color: #0B63E5;
+     }
+
+    }
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 28%;
+    flex-wrap: wrap;
+}
