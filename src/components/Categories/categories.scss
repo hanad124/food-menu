@@ -6,6 +6,8 @@
     &_container {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        row-gap: 1rem;
         
         .category{
             color: #333333;
